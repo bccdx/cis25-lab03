@@ -26,7 +26,7 @@ int main()
 
 	// while (!(plan == "A" || plan == "B" || plan == "C" || plan == "a" || plan == "b" || plan == "c"))
 	// {
-	// 	cout << "Invalid package choice. Please run the program again and select A, B, or C." << endl;
+	// 	cout << "Invalid package choice. Please select A, B, or C." << endl;
 	// 	cin >> plan;
 	// }
 	if (!(plan == "A" || plan == "B" || plan == "C" || plan == "a" || plan == "b" || plan == "c"))
