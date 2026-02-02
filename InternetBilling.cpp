@@ -70,10 +70,6 @@ int main()
 	else if (plan == "C" || plan == "c")
 	{
 		total = cMonthly;
-		if (hoursUsed > cHoursIncluded)
-		{
-			total += (hoursUsed - cHoursIncluded) * cExtraHoursRate;
-		}
 	}
 
 	cout << "Your total amount due is : $" << total << endl;
