@@ -1,3 +1,5 @@
+# Danna Xu - All Parts
+
 # Lab 3: Decisions, Loops, and Files
 ### Objective: 
 The goal of this lab is to combine decision-making structures with loops to create robust, interactive programs. You will write programs that validate user input, repeat actions, calculate running totals, and perform file input/output (I/O).
