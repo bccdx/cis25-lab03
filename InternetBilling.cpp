@@ -1,8 +1,12 @@
 #include <iostream>
+#include <iomanip>
 using namespace std;
 
 int main()
 {
+	cout << fixed;
+	cout << setprecision(2);
+
 	double aMonthly = 9.95;
 	double aHoursIncluded = 10;
 	double aExtraHoursRate = 2.00;
@@ -71,7 +75,7 @@ int main()
 	{
 		total = cMonthly;
 	}
-
+	
 	cout << "Your total amount due is : $" << total << endl;
 
 	return 0;
